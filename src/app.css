@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    font-size: 24px;
+    background-color: #f6f6f6;
+    margin: 0;
+  }
+  
+  
+  
+  
+  .app {
+    height: 100vh;
+   
+   position: relative;
+   
+   
+
+  }
+  
+  #editor,
+  #preview {
+    display: inline-block;
+    border-style: none;
+    box-sizing: border-box;
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    padding: 30px 20px 16px 16px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    
+  }
